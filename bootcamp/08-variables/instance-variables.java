@@ -1,10 +1,10 @@
-class instance {
+class instanceVariables {
   String type = "car";
   String name = "xyz";
   int cost = 200000;
 
   public static void main(String[] args) {
-    instance example1 = new instance(); 
+    instanceVariables example1 = new instanceVariables(); 
     System.out.println(example1.type);
     System.out.println(example1.name);
     System.out.println(example1.cost);
@@ -20,7 +20,7 @@ class instance {
   - it's created with the default data type values 
   - the defualt value get over-written by the actuale values
   - the left side of the code - instance example1 - allocates in the STACK segment, which refers to the HEAP segment with the same address
-  
+
 
   
 
