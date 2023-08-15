@@ -1,4 +1,4 @@
-class car {
+class refCar {
     String name; 
     int cost;
 }
@@ -6,7 +6,7 @@ class car {
 public class referenceTypeAssignment {
  
   public static void main(String[] args) {
-    car x = new car(); 
+    refCar x = new refCar(); 
 
     x.name = "name1"; 
     x.cost = 50000;
@@ -14,7 +14,7 @@ public class referenceTypeAssignment {
     System.out.println(x.name);
     System.out.println(x.cost);
 
-    car y; 
+    refCar y; 
     y = x; 
 
     System.out.println(y.name);
