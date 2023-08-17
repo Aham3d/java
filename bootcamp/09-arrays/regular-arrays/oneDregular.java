@@ -8,7 +8,7 @@ public class oneDregular {
 		int[] a = new int[5]; 
 
 		for(int i = 0; i < a.length; i++) {
-			System.out.println("enter the age");
+			System.out.println("enter the age of student"+i);
 			a[i] = sc.nextInt();
 		}
 
