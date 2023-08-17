@@ -8,7 +8,7 @@ public class threeDregular {
     for(int i = 0; i < a.length; i++) {
       for(int j = 0; j < a[i].length; j++) {
         for(int k = 0; k < a[i][j].length; k++) {
-          System.out.println("enter the age of class "+i +"classroom "+j +"student "+k);
+          System.out.println("enter the age of class "+i +" classroom "+j +" student "+k);
           a[i][j][k] = sc.nextInt(); 
         }
       }
