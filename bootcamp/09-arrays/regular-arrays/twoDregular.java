@@ -9,7 +9,7 @@ public class twoDregular {
     
     for(int i = 0; i < a.length; i++) {
       for(int j = 0; j < a[i].length; j++) {
-        System.out.println("enter the age for classroom"+i + "student"+j);
+        System.out.println("enter the age for classroom "+i + "student "+j);
         a[i][j] = sc.nextInt();
       }
     }
