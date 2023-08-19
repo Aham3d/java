@@ -12,7 +12,7 @@ public class angryProfessor {
     for(int i = 0 ; i < a.length; i++) {
       a[i] = sc.nextInt();      
     }
-    System.out.println(angryProfessor(k, a));
+    System.out.println(angryProfessor(k, a)); 
   }
 
   static String angryProfessor(int k, int[] a) {
