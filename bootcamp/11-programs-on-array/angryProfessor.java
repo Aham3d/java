@@ -27,7 +27,7 @@ public class angryProfessor {
     if(count >= k) {
       return "no"; 
     } else {
-      return "yes"; 
+      return "yes";  
     }
   }
 
