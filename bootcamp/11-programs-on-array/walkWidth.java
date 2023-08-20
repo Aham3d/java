@@ -11,16 +11,16 @@ public class walkWidth {
     for(int i = 0; i < a.length; i++) {
       a[i] = sc.nextInt(); 
     }
-    System.out.println(walkWidth(a, h));
+    System.out.println(walkWidth(a, h));  
   }
 
   static int walkWidth(int[] a, int h) {
     int width = 0; 
     for(int i = 0; i < a.length; i++) {
       if(a[i] <= h) {
-        width += 1; 
+        width++; 
       } else {
-        width += 2; 
+        width = width + 2; 
       }
     }
     return width; 
