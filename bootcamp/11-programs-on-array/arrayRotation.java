@@ -6,15 +6,25 @@ public class arrayRotation {
     Scanner sc = new Scanner(System.in); 
 
     int n = sc.nextInt(); 
-    int[] a = new int[n]; 
     int k = sc.nextInt(); 
-    int[] q = new int[a.length]; 
+    int q = sc.nextInt(); 
+    int[] a = new int[n]; 
+    int[] queries  = new int[q]; 
 
     for(int i = 0; i < a.length; i++) {
       a[i] = sc.nextInt(); 
     }
 
-    System.out.println(arrayRotation(a, k, q));
+    for(int i = 0; i < queries.length; i++) {
+      queries[i] = sc.nextInt(); 
+    }
+
+    int[] res = arrayRotation(a, k, queries);
+
+    for(int i = 0; i < res.length; i++) {
+      System.out.println(res[i]);
+    }
+
   }
 
   static int[] arrayRotation(int[] a, int k, int[] q) {
@@ -32,3 +42,4 @@ public class arrayRotation {
   }
 
 }
+// done
