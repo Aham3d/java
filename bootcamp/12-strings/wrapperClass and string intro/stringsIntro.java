@@ -1,5 +1,5 @@
 public class stringsIntro {
-  
+
   public static void main(String[] args) {
     /*
     memory is allocated in the head segment inside the string pool
@@ -24,6 +24,7 @@ public class stringsIntro {
     // examples
     System.out.println(example1());
     System.out.println(example2());
+    System.out.println(example3());
   }
 
   // EXAMPLE 1 
