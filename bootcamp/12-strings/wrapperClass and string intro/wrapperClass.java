@@ -16,9 +16,9 @@ public class wrapperClass {
   // because it does not treat date types as on object
   // using wrapper class we can convert it to objects
   // but primitive data types are faster compared to wrapper class
-  boolean i = new boolean(true); 
+  int i = new int(c);
   
-  
+
   public static void main(String[] args) {
     wrapperClass wr = new wrapperClass(); 
 
