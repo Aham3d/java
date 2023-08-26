@@ -1,4 +1,5 @@
 public class stringsIntro {
+  
   public static void main(String[] args) {
     /*
     memory is allocated in the head segment inside the string pool
@@ -31,7 +32,7 @@ public class stringsIntro {
     String s2 = "java"; 
 
     if(s1==s2) {
-      return "reference is eqaul"; 
+      return "reference is eqaul"; //OP
     } else {
       return "refernce is not equal"; 
     }
@@ -50,7 +51,7 @@ public class stringsIntro {
     String s2 = new String("java"); 
 
     if(s1.equals(s2)) {
-      return "value is equal"; 
+      return "value is equal"; //OP
     } else {
       return "value is not equal";
     }
@@ -70,7 +71,7 @@ public class stringsIntro {
     if(s1==s2) {
       return "reference is equal";
     } else {
-      return "reference is not equal"; 
+      return "reference is not equal"; //OP
     }
   }
     /* 
@@ -81,16 +82,5 @@ public class stringsIntro {
    * even though the values are same, as the memory is allocated in the non-constact pool it'll allocated memory for the duplicate pool
    * as duplicate are allowed in the non-constant pool 
    */
-
-   
-
-
-
-
-
-
-
-
-
 
 }
