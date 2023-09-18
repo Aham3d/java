@@ -1,17 +1,17 @@
 // this method example 2
-class customer3 {
+class customer2 {
   
   private int cId;
   private String cName; 
   private long cNumber; 
   
-  public customer3() {
+  public customer2() {
     cId = 102; 
     cName = "name2"; 
     cNumber = 4987434344L;
   }
 
-  public customer3(int cId, String cName, long cNumber) {
+  public customer2(int cId, String cName, long cNumber) {
     this(); 
     this.cId = cId; 
     this.cName = cName;
@@ -35,7 +35,7 @@ class customer3 {
 public class thisMethod2 {
 
   public static void main(String[] args) {
-    customer3 c = new customer3(101, "name1", 398479857349L); 
+    customer2 c = new customer2(101, "name1", 398479857349L); 
 
     System.out.println(c.getCid() + " " + c.getCname() + " " + c.getNumber());
   }
