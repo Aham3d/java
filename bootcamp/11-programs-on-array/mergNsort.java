@@ -37,7 +37,7 @@ public class mergNsort {
   public static void main(String[] args) {
     // Scanner sc = new Scanner(System.in); 
 
-    int[] ar1 = {3, 5, 9, 12,};
+    int[] ar1 = {3, 5, 9, 12};
     int[] ar2 = {1, 6, 8};
 
     int[] res = mergNsort(ar1, ar2);
@@ -49,3 +49,4 @@ public class mergNsort {
 
 }
 // done
+// revise(sep)

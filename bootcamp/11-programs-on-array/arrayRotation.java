@@ -35,10 +35,12 @@ public class arrayRotation {
       b[ ( i + k ) % a.length ] = a[i]; 
     }
 
-    for(int i = 0; i < q.length; i++) {
-      res[i] = b[q[i]];
-    }
-    return res; 
+    // for(int i = 0; i < q.length; i++) {
+    //   res[i] = b[q[i]];
+    // }
+    // return res; 
+
+    return b; 
   }
 
 }
