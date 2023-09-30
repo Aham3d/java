@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class trim {
   
   static String trim(String s) {
-    String t = " "; 
+    String t = ""; 
     int si = 0, ei = 0; 
 
     for(int i = 0; i < s.length(); i++) {
@@ -36,3 +36,4 @@ public class trim {
   }
 
 }
+// revise(sep)
